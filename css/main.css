@@ -50,20 +50,44 @@ html {
 	font-size: 10px;
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:2000px) {
 	html {
 		font-size: 9.411764705882353px;
 	}
-}
-@media only screen and (max-width:768px) {
-	html {
-		font-size: 10px;
+	.varsize {
+		font-size: 30px;
+		align-self: center;
 	}
+	.imgcenter{
+		margin-left: auto;
+		margin-right: auto;
+	  }
+}
+@media only screen and (max-width:800px) {
+	html {
+		font-size: 20px;
+	}
+	.varsize {
+		font-size: 25px;
+		align-self: center;
+	}
+	.imgcenter{
+		margin-left: auto;
+		margin-right: auto;
+	  }
 }
 @media only screen and (max-width:400px) {
 	html {
 		font-size: 9.411764705882353px;
 	}
+	.varsize {
+		font-size: 20px;
+		align-self: center;
+	}
+	.imgcenter{
+		margin-left: 25px;
+		margin-right: auto;
+	  }
 }
 
 html, body {
