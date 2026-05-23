@@ -474,6 +474,8 @@ h3 {
   gap: 14px;
 }
 
+.hero-text a,
+.project-card a,
 .list-card a {
   color: #bfdbfe;
   text-decoration: underline;
