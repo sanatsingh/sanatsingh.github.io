@@ -1,1 +1,6 @@
 debug.log
+.DS_Store
+.venv/
+.uv-cache/
+.superpowers/
+docs/

@@ -1,0 +1,8 @@
+[project]
+name = "sanatsingh-github-io"
+version = "0.1.0"
+description = "Static portfolio site tooling."
+requires-python = ">=3.11"
+dependencies = [
+    "pypdf>=5.0.0",
+]
